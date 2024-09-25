@@ -1,0 +1,109 @@
+:root {
+  /* Color Variables */
+  --primary-color: #007bff;
+  --secondary-color: #f4f4f9;
+  --text-color: #343a40;
+  --card-bg-color: #ffffff;
+  --sidebar-bg-color: #f8f9fa;
+  --footer-bg-color: #343a40;
+  --footer-text-color: #ffffff;
+  --link-hover-color: #0056b3;
+
+  /* Spacing Variables */
+  --card-padding: 20px;
+  --sidebar-padding: 20px;
+  --footer-padding: 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: var(--secondary-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.navbar {
+  padding: 1rem;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.post {
+  margin-bottom: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+  padding: var(--card-padding);
+  background-color: var(--card-bg-color);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+  background-color: var(--sidebar-bg-color);
+  padding: var(--sidebar-padding);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  text-align: center;
+  padding: var(--footer-padding);
+  margin-top: 40px;
+}
+
+aside a {
+  margin: 5px 0 !important;
+}
+
+.navbar a:hover,
+aside a:hover {
+  color: var(--link-hover-color);
+}
+
+#back-to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 50%;
+  display: none;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.contact-form {
+  background-color: var(--footer-bg-color);
+  color: var(--footer-text-color);
+  padding: var(--footer-padding);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+.contact-form input,
+.contact-form textarea {
+  margin-bottom: 10px;
+}
