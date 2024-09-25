@@ -1,4 +1,4 @@
-# My Advanced Blog
+# Blog app
 
 This is a simple blog project using HTML, Bootstrap, and a little bit of JavaScript. It contains a basic structure for a blog layout, a navigation bar, a sidebar, and a few posts.
 
